@@ -34,7 +34,7 @@ col3.metric("Humidity", "86%", "4%")
 
 ## Row B
 seattle_weather = pd.read_csv('https://raw.githubusercontent.com/rafb59/DashboardWebApp/refs/heads/master/data/seattle-weather.csv', parse_dates=['date'])
-stocks = pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/master/stocks_toy.csv')
+stocks = pd.read_csv('https://raw.githubusercontent.com/rafb59/DashboardWebApp/refs/heads/master/data/stocks_toy.csv')
 
 c1, c2 = st.columns((7,3))
 with c1:
